@@ -1,0 +1,23 @@
+Subspace
+subspace
+if w1,w2 in W then is in w1+w2 in W ? none
+if 0 exists then 0 in W ? none
+if w in W and c in R then cw in W ? none
+
+Injection
+injective
+if s1,s2 in S and f(s1) = f(s2) then s1 = s2 ? none
+
+Surjection
+surjective
+if t in T then there exists s in S such that f(s) = t ? none
+
+Bijection
+bijective
+if f is exists then f is injective ? injective
+if f is exists then f is surjective ? surjective
+
+Linear Independent
+linearly independent
+if c1,c2,...,cn are in R where n is the number of elements in the set and c1(v1) + c2(v2) + ... + cn(vn) = 0 where v1,v2,...,vn denotes an element from the set then c1 = c2 = ... = cn = 0 ? none
+

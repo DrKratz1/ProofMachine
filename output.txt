@@ -1,0 +1,39 @@
+Assume: f:S->T is a function and has an inverse function 
+To Show: f is bijective
+Hence:
+1.   if f is exists then f is injective
+2.   if f is exists then f is surjective
+
+To show: (1)
+if f is exists then f is injective
+Assume: f is exists 
+To Show: f is injective
+
+Hence:
+1.1   if s1,s2 in S and f(s1) = f(s2) then s1 = s2
+
+To show: (1.1)
+if s1,s2 in S and f(s1) = f(s2) then s1 = s2
+Assume: s1,s2 in S and f(s1) = f(s2) 
+To Show: s1 = s2
+
+Hence:
+Since f has an inverse function, let g:T->S be the inverse of f. Then, we have g(f(s1))=s1 and g(f(s2))=s2. Given f(s1)=f(s2), we have g(f(s1))=g(f(s2)), which implies that s1=s2.
+Thus: s1 = s2
+
+To show: (2)
+if f is exists then f is surjective
+Assume: f is exists 
+To Show: f is surjective
+
+Hence:
+2.1   if t in T then there exists s in S such that f(s) = t
+
+To show: (2.1)
+if t in T then there exists s in S such that f(s) = t
+Assume: t in T 
+To Show: there exists s in S such that f(s) = t
+
+Hence:
+Since f has an inverse function, it is bijective. Therefore, for any t in T, there exists a unique s in S such that f(s) = t.
+Thus: there exists s in S such that f(s) = t
